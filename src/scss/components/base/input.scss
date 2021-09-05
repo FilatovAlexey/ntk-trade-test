@@ -1,82 +1,84 @@
 .select {
-  position: relative;
-  width: 300px;
+    position: relative;
+    width: 300px;
 }
 
 .select__toggle {
-  outline: none !important;
-  border: none;
-  display: flex;
-  border-bottom: 1px dashed #d3232a;
-  color: #d3232a;
-  background-color: #fff;
-  cursor: pointer;
-  align-items: center;
-  width: 100%;
-  user-select: none;
-  font-size: 24px;
-  justify-content: space-between;
+    outline: none !important;
+    border: none;
+    display: flex;
+    border-bottom: 1px dashed #d3232a;
+    color: #d3232a;
+    background-color: #fff;
+    cursor: pointer;
+    align-items: center;
+    width: 100%;
+    user-select: none;
+    font-size: 24px;
+    justify-content: space-between;
 }
 
 .select__toggle::after {
-  content: '';
-  width: 13.5px;
-  height: 8px;
-  background-size: auto;
-  background-image: url('../img/Vector.png');
+    content: "";
+    width: 13.5px;
+    height: 8px;
+    background-size: auto;
+    background-image: url("../img/Vector.png");
 }
 
 .select__toggle:focus {
-  outline: none;
+    outline: none;
 }
 
 .select_show .select__toggle::after {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 .select__dropdown {
-  display: none;
-  position: absolute;
-  top: 2.5rem;
-  left: 0;
-  right: 0;
-  min-height: 10rem;
-  overflow-y: auto;
-  z-index: 2;
-  background-color: #fff;
+    display: none;
+    position: absolute;
+    top: 2.5rem;
+    left: 0;
+    right: 0;
+    min-height: 10rem;
+    overflow-y: auto;
+    z-index: 2;
+    background-color: #fff;
 }
 
 .select_show .select__dropdown {
-  display: block;
+    display: block;
 }
 
 .select_show .select__backdrop {
-  display: block;
+    display: block;
 }
 
 .select__options {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+    box-shadow: inset;
 }
 
 .select__option {
-  font-size: 24px;
-  color: #737373;
-  padding: 0.375rem 0.75rem;
+    font-size: 24px;
+    color: #737373;
+    padding: 10px 0;
 }
 
 .select__option_selected {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .select__option_selected::after {
-  color: #d3232a;
+    color: #d3232a;
 }
 
 .select__option:hover {
-  cursor: pointer;
-  transition: 0.2s background-color ease-in-out;
+    cursor: pointer;
+    transition: 0.2s background-color ease-in-out;
 }

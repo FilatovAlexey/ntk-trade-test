@@ -1,74 +1,74 @@
 body {
-  font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 .container {
-  max-width: 1290px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
 
-  &__margin {
-    margin-top: 8px;
-  }
+    &__margin {
+        margin-top: 8px;
+    }
 
-  &__select {
-    margin-left: 16px;
-  }
+    &__select {
+        margin-left: 16px;
+    }
 
-  &__content {
-    margin-top: 40px;
-  }
+    &__content {
+        margin-top: 40px;
+    }
 }
 
 .root {
-  padding-top: 80px;
-  font-weight: 400;
+    padding-top: 80px;
+    font-weight: 400;
 }
 
 .top-section {
-  padding: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .resume_sub-title {
-  display: flex;
+    display: flex;
 }
 
 .resume_sub-title-text {
-  font-size: 16px;
-  line-height: 180%;
-  color: #000000;
+    font-size: 16px;
+    line-height: 180%;
+    color: #000000;
 }
 
 .resume_select-sity {
-  margin-left: 10px;
-  color: #d3232a;
-  border: none;
+    margin-left: 10px;
+    color: #d3232a;
+    border: none;
 }
 
 .middle-section {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1024px) {
-  .middle-section {
-    flex-direction: column;
-  }
+    .middle-section {
+        flex-direction: column;
+    }
 
-  .container {
-    padding: 0 40px;
-  }
+    .container {
+        padding: 0 24px;
+    }
 
-  .resume_sub-title {
-    flex-direction: column;
-  }
+    .resume_sub-title {
+        flex-direction: column;
+    }
 
-  .resume_sub-title-text {
-    margin-bottom: 30px;
-  }
+    .resume_sub-title-text {
+        margin-bottom: 30px;
+    }
 
-  .top-section {
-    padding: 0 0 30px 0;
-  }
+    .top-section {
+        padding: 0 0 30px 0;
+    }
 }
