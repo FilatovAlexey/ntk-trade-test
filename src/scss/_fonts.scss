@@ -1,0 +1,17 @@
+@import url('fonts/Fontello/css/fontello.css');
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    font-family: $font-family;
+    src: url('#{$file-path}.woff2');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+
+
+@include font-face('Montserrat', 'fonts/Montserrat-Regular', 400);
+@include font-face('Montserrat', 'fonts/Montserrat-Medium', 500);
+@include font-face('Montserrat', 'fonts/Montserrat-Bold', 700);
+

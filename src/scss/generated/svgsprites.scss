@@ -1,0 +1,64 @@
+.svgsprite {
+    display:inline-block;
+    width:1em;
+    height:1em;
+    fill:currentColor;
+    vertical-align:middle;
+
+    &._arrow {
+    	font-size:(24/10)*1rem;
+    	width:(24/24)*1em;
+    }
+    &._import1 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import10 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import11 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import12 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import2 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import3 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import4 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import5 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import6 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import7 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import8 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._import9 {
+    	font-size:(32/10)*1rem;
+    	width:(32/32)*1em;
+    }
+    &._search {
+    	font-size:(36/10)*1rem;
+    	width:(36/36)*1em;
+    }
+}

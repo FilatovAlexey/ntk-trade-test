@@ -1,0 +1,27 @@
+/* Main Colors */
+$color-base : #171717;
+$color-white : #fff;
+$color-gray : #ccc;
+$color-primary : #F04D22;;
+$color-secondary : #FFAA00;
+$color-tertiary: #FF4040;
+
+$color-bg : #f8f8f8;
+$color-text : $color-base;
+$color-error : $color-tertiary;
+$color-popup-background: $color-white;
+
+$link-color : $color-text;
+$link-hover-color : $color-primary;
+
+$transition-duration: .2s;
+$transition-timing-function: ease-out;
+
+/* Fonts */
+$font-family : "Montserrat";
+$font-family-alt : sans-serif;
+$font-family-fontello: "fontello";
+$font-size : 1.6rem;
+$font-weight : normal;
+$letter-spacing : normal;
+$line-height : 1.2;

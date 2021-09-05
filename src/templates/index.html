@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+  <meta name="format-detection" content="telephone=no" />
+  <link rel="preload" href="assets/css/common.css" as="style" />
+  <link rel="preload" href="assets/js/vendors~main.bundle.js" as="script" />
+  <link rel="preload" href="assets/js/main.bundle.js" as="script" />
+
+  <link rel="preload" href="assets/css/fonts/Montserrat-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" href="assets/css/fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+  <link rel="preload" href="assets/css/fonts/Montserrat-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous" />
+
+
+
+  <link rel="stylesheet" href="assets/css/common.css?v=1.0.0" />
+
+  <meta name="description" content="Description" />
+  <meta property="og:url" content="https://" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="title" />
+  <meta property="twitter:title" content="title" />
+  <meta property="og:description" content="description" />
+  <meta property="twitter:description" content="description" />
+  <meta property="og:image" content="assets/share.png" />
+  <title>Форма для резюме </title>
+
+</head>
+
+<body>
+  <div class="root">
+    <div class="container">
+      <div class="top-section">
+        <h2 class="resume_title">Отправьте ваше резюме</h2>
+        <div class="resume_sub-title container__margin">
+          <span class="resume_sub-title-text">Постройте своё будущее c РусЭлитТрейдинг в городе</span>
+          <div class="select container__select" id="select-1">
+            <button type="button" class="select__toggle" name="sity" value="nn" data-select="toggle" data-index="1">Нижний
+              новгород</button>
+            <div class="select__dropdown">
+              <ul class="select__options">
+                <li class="select__option" data-select="option" data-value="Moskow" data-index="0">Москва</li>
+                <li class="select__option select__option_selected" data-select="option" data-value="nn" data-index="1">
+                  Нижний Новгород</li>
+                <li class="select__option" data-select="option" data-value="Krasnodar" data-index="2">Краснодар</li>
+                <li class="select__option" data-select="option" data-value="Kazan" data-index="3">Казань</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="middle-section container__content">
+        <div class="form-wrapper">
+          <form action="#" id="form" class="form_body">
+            <div class="form_item">
+              <label for="formName" class="form_label label-item">Как вас зовут?*</label>
+              <input id="formName" type="text" name="name" class="form_input _req">
+            </div>
+            <div class="form_item">
+              <label for="formEmail" class="form_label label-item">Ваш E-mail*</label>
+              <input id="formEmail" type="email" name="email" class="form_input _req _email">
+            </div>
+            <div class="form_item">
+              <div class="select form_select" id="select-2">
+                <button type="button" class="select__toggle button_form_select" name="vacancy" value="" data-select="toggle" data-index="100">Выберите вакансию
+                </button>
+                <div class="select__dropdown">
+                  <ul class="select__options">
+                    <li class="select__option" data-select="option" data-value="program" data-index="0">Программист</li>
+                    <li class="select__option select__option_selected" data-select="option" data-value="verst" data-index="1">
+                      Верстальщик</li>
+                    <li class="select__option" data-select="option" data-value="Analytics" data-index="2">Аналитик</li>
+                    <li class="select__option" data-select="option" data-value="SEO" data-index="3">SEO Специалист</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="form_item">
+              <label for="formMessage" class="form_label label-item">Напишите о себе кратко</label>
+              <textarea id="formMessage" name="message" class="form_input"></textarea>
+            </div>
+            <div class="form_item">
+              <div class="file">
+                <div class="file_item">
+                  <input id="formDoc" accept=".docx, .doc" type="file" name="doc" class="file_input" multiple>
+                  <div class="file_button">Прикрепить документы</div>
+                </div>
+                <ul id="formPreview" class="form_preview"></ul>
+              </div>
+            </div>
+            <div class="form_item">
+              <div class="checkbox">
+                <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox_input _req">
+                <label for="formAgreement" class="checkbox_label"><span>Я соглашаюсь с <a href="#">политикой
+                      конфиденциальности</a>, нажимая на кнопку “Откликнуться”</span></label>
+              </div>
+            </div>
+            <button class="form_button" type="submit">Откликнуться</button>
+          </form>
+        </div>
+        <div class="contacts_wrapper">
+          <div id="map"></div>
+          <div class="contacts">
+            <div class="contacts_titlte">Контакты:</div>
+            <div class=contacts_number><a href="tel:+74959297078">+7 (495) 929-70-78</a></div>
+
+            <div class="contacts_email">
+              <a href="mailto:welcome@ret-team.su" target="_blank" rel="noopener noreferrer">welcome@ret-team.su</a>
+            </div>
+            <div class="contacts_work-hours">
+              Мы работаем в будни с 9:00 до 18:00.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/vendors~main.bundle.js"></script>
+  <script type="text/javascript" src="assets/js/main.bundle.js?v=1.0.0"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBirUnsB4l_9l_KSGv1qMIyz379lcjh9-U"></script>
+</body>
+
+
+</html>

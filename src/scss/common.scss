@@ -1,0 +1,36 @@
+// Commons
+@import "variables";
+@import "custom-reset";
+
+// External
+
+
+
+// @import "node_modules/@fancyapps/dist/jquery.fancybox.min.css";
+// Base
+// @import "generated/sprites";
+// @import "generated/svgsprites";
+@import "fonts";
+@import "mixins";
+@import "base";
+@import "sprite";
+
+// Base components
+@import "components/base/bc";
+@import "components/base/btn";
+@import "components/base/form";
+@import "components/base/footer";
+@import "components/base/header";
+@import "components/base/input";
+@import "components/base/rte";
+@import "components/base/item";
+@import "components/base/modals";
+
+// Project components
+
+@import "pages/mainpage";
+
+
+// Media
+
+@import "components/base/media";
