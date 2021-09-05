@@ -16,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(/assets/img/1488.gif) center / 50px no-repeat;
+    background: url(../assets/img/1488.gif) center / 50px no-repeat;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease-in;
@@ -99,7 +99,7 @@ textarea {
 
 .file_button {
     height: 40px;
-    background-image: url("/assets/img/clip.svg");
+    background-image: url("../assets/img/clip.svg");
     background-repeat: no-repeat;
     font-size: 16px;
     color: black;
@@ -120,7 +120,7 @@ textarea {
 .formPreview_item button {
     border: none;
     outline: none;
-    background-image: url("/assets/img/basket.svg");
+    background-image: url("../assets/img/basket.svg");
     width: 24px;
     height: 24px;
     background-color: #fff;
@@ -169,7 +169,7 @@ textarea {
 
 .checkbox_label::after {
     content: "";
-    background-image: url("/assets/img/check.svg");
+    background-image: url("../assets/img/check.svg");
     background-repeat: no-repeat;
     background-position: center;
     width: 20px;
