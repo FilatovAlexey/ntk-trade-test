@@ -218,7 +218,7 @@ let contacts = {
                 56.29709828320156,
                 43.94660472490804
             ),
-            icon: "../assets/img/marker.svg",
+            icon: "/assets/img/marker.svg",
             map: map,
             title: "Snazzy",
         });
